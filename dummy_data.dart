@@ -495,155 +495,247 @@ List<Artifact_Overview> loadedArtifacts = [
 
 
 
-const MUSEUMS_Mus1 =const[
-  Mus1(id:'m1',
-  title:'المتحف المصري',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtHv5eQlowTLZEYYbDKhzBAWv3xpLMB1nEhg&usqp=CAU'
-    ,city: 'Cairo'),
-      Mus1(id:'m2',
-  title:'المتحف القومي للحضارة المصرية ',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmygxmasPHqfUton-49CcsvTxuEoH71ciMw&usqp=CAU'
-    ,city: 'Cairo'),
-      Mus1(id:'m3',
-  title:'قصر عابدين',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcG1o3YpRwZLB1u-p_Hm7cR648BynnCF_DlQ&usqp=CAU'
-    ,city: 'Cairo'),
-      Mus1(id:'m4',
-  title:'متحف مركب الجيزة الشمسي (متحف مركب خوفو)',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVGpepcBIZ9mOdoOL4xOSCxYya4f9UfJaSnw&usqp=CAU'
-    ,city: 'Cairo'),
-      Mus1(id:'m5',
-  title:'المتحف الجيولوجي المصري',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtNHZUUI29lsG8VX-86gjt-MDNHNW2jqpMVw&usqp=CAU'
-    ,city: 'Cairo'),
-    Mus1(id: 'm6', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLLWmAzslrUeAiH9jJ0Dvu7JH9qAZF-vua8g&usqp=CAU', title: 'المتحف الحربي المصري',city: 'Cairo'),
-    Mus1(id: 'm7', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3R65aUMQ2N9Q00kDwShAitgKErXIMlhfOsA&usqp=CAU', title: 'متحف الركايب الملكية',city: 'Cairo'),
-    Mus1(id: 'm8', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPUuNEfalIovAyAslGZ9FRSO6mvxz_ofesg&usqp=CAU', title: 'المتحف القبطي',city: 'Cairo'),
-    Mus1(id: 'm9', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGNqJNi-DPH9H2V5fChs69IqbNQCnR1iJV-Q&usqp=CAU', title: 'متحف الطفل بالقاهرة',city: 'Cairo'),
-    Mus1(id: 'm10', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7FxMlUoB1BkmiYDHFo6iBM8GuB1sgFw0rcA&usqp=CAU', title: 'متحف الزراعة المصرية القديمة',city: 'Cairo'),
-    Mus1(id: 'm11', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScytNEj8R6Wnv89JnaiAAjbhzGl1Aw2ZkScw&usqp=CAU', title: 'متحف الفن الإسلامي بالقاهرة',city: 'Cairo'),
-    Mus1(id: 'm12', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuMPY11MSmwd3sGWcj7nW7pQQOdvTLYLZ0SQ&usqp=CAU', title: 'متحف الفن المصري الحديث',city: 'Cairo'),
-    Mus1(id: 'm13', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8lK_tpEWs8MQYvdtZg7I9GwMU_h9CeBTgw&usqp=CAU', title: 'متحف العلوم بالقاهرة',city: 'Cairo'),
-    Mus1(id: 'm14', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkIC_n8Sptq9SCtmy3Y7ZPin7O4-g2v8k8qw&usqp=CAU', title: 'متحف الجمعية المصرية الجغرافية',city: 'Cairo'),
-    Mus1(id: 'm16', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7HAIqlIDqF5ApdnTmO50aGPmnpOhCSC2MHw&usqp=CAU', title: 'متحف مجلس الشعب',city: 'Cairo'),
-    Mus1(id: 'm17', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxey0PpSWjL0fw3umRH2EZd0bDaLjAfhMx0w&usqp=CAU', title: 'متحف الشمع',city: 'Cairo'),
-    Mus1(id: 'm18', imageUrl: '', title: 'متحف كلية طب قصر العيني',city: 'Cairo'),
-    Mus1(id: 'm19', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHOvoDDMnXmge3w-VEjcEjYZCKqUTNr1jhlw&usqp=CAU', title: 'متحف سعد زغلول (بيت الأمة)',city: 'Cairo'),
-    Mus1(id: 'm20', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfGf9uWNzwyQF6xhUcJxXSvJhJ4TdnggFKCQ&usqp=CAU', title: 'متحف الخزف الإسلامي',city: 'Cairo'),
-    Mus1(id: 'm21', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJJXB1IbKM1nJBuCYQHG02GPgP3Yt_f1otg&usqp=CAU', title: 'متحف بيت السحيمي',city: 'Cairo'),
-    Mus1(id: 'm22', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyrkGDYxYbaYfmkWntXdNr6T6crDG2KmeZIw&usqp=CAU', title: 'متحف سكك حديد مصر',city: 'Cairo'),
-    Mus1(id: 'm23', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxTrJUCMQpsWBI_oCAmsqppNubK2nVVzekg&usqp=CAU', title: 'متحف البريد',city: 'Cairo'),
-    Mus1(id: 'm24', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDDdeQb_l6KGuvaRhHpUGoSPL0Ti3Su55sKw&usqp=CAU', title: 'متحف محمود مختار',city: 'Cairo'),
-    Mus1(id: 'm25', imageUrl: '', title: 'متحف الجزيرة للفن الحديث',city: 'Cairo'),
-    Mus1(id: 'm26', imageUrl: '', title: 'متحف ركن حلوان',city: 'Cairo'),
-    Mus1(id: 'm27', imageUrl: '', title: 'متحف الشرطة القومي',city: 'Cairo'),
-    Mus1(id: 'm28', imageUrl: '', title: 'متحف السجن',city: 'Cairo'),
-    Mus1(id: 'm29', imageUrl: '', title: 'متحف المركبات الملكية ببولاق أبو العلا',city: 'Cairo'),
-    Mus1(id: 'm30', imageUrl: '', title: 'متحف المركبات الملكية بالقلعة',city: 'Cairo'),
-    Mus1(id: 'm31', imageUrl: '', title: 'قصر الجوهرة',city: 'Cairo'),
-    Mus1(id: 'm32', imageUrl: '', title: 'متحف جايير أندرسون (بيت الكريتلية)',city: 'Cairo'),
-    Mus1(id: 'm33', imageUrl: '', title: 'متحف قصر الأمير محمد علي بالمنيل',city: 'Cairo'),
-    Mus1(id: 'm34', imageUrl: '', title: 'متحف المطار',city: 'Cairo'),
-    Mus1(id: 'm35', imageUrl: '', title: 'متحف هدايا الرئيس مبارك',city: 'Cairo'),
-    Mus1(id: 'm36', imageUrl: '', title: 'متحف مصطفى كامل',city: 'Cairo'),
-    Mus1(id: 'm37', imageUrl: '', title: 'متحف الأوسمة والنياشين',city: 'Cairo'),
-    Mus1(id: 'm38', imageUrl: '', title: 'متحف مركز قيادة الثورة',city: 'Cairo'),
-    Mus1(id: 'm39', imageUrl: '', title: 'متحف المضبوطات الأثرية',city: 'Cairo'),
-    Mus1(id: 'm40', imageUrl: '', title: 'متحف الفضيات',city: 'Cairo'),
-    Mus1(id: 'm41', imageUrl: '', title: 'متحف الأسلحة ',city: 'Cairo'),
-    Mus1(id: 'm42', imageUrl: '', title: 'متحف قصر النيل ',city: 'Cairo'),
-    Mus1(id: 'm43', imageUrl: '', title: ' متحف الصيد',city: 'Cairo'),
-    Mus1(id: 'm44', imageUrl: '', title: 'متحف حديقة قلعة صلاح الدين ',city: 'Cairo'),
-    //----------------------------------------------------
-    Mus1(id: 'm45', title: 'المتحف المصري الكبير',imageUrl: '',city: 'الجيزة'),
-    Mus1(id: 'm46', title: 'متحف أحمد شوقي',imageUrl: '',city: 'الجيزة'),
-    Mus1(id: 'm47', title: 'متحف محمد محمود خليل وحرمه',imageUrl: '',city: 'الجيزة'),
-    Mus1(id: 'm48', title: 'المتحف الزراعي المصري',imageUrl: '',city: 'الجيزة'),
-    Mus1(id: 'm49', title: 'المتحف المفتوح (ميت رهينة)',imageUrl: '',city: 'الجيزة'),
-    Mus1(id: 'm50', title: 'المتحف الحيواني',imageUrl: '',city: 'الجيزة'),
-    //----------------------------------------------------
-    Mus1(id: 'm51', title: 'متحف قصر محمد علي بشبرا بشبرا الخيمة ',imageUrl: '',city: 'القليوبية'),
-    Mus1(id: 'm52', title: ' متحف الثورة(الري) بالقناطر الخيرية',imageUrl: '',city: 'القليوبية'),
-    Mus1(id: 'm53', title: 'متحف علوم المياة التفاعلي بالقناطر الخيرية ',imageUrl: '',city: 'القليوبية'),
-    //-------------------------------------------------------
-    Mus1(id: 'm54', title: 'المتحف الغارق ',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm55', title: 'المتحف اليوناني الروماني ',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm56', title: ' قصر المنتزه',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm57', title: 'متحف الأحياء المائية ',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm58', title: 'متحف الإسكندرية القومي ',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm59', title: ' متحف المجوهرات الملكية',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm60', title: ' مجمع متاحف محمود سعيد',imageUrl: '',city: 'الإسكندرية'),
-    Mus1(id: 'm61', title: 'متاحف مكتبة الإسكندرية الجديدة ',imageUrl: '',city: 'الإسكندرية'),
-    //---------------------------------------------------------------------------------
-    Mus1(id: 'm62', title: 'متحف الأقصر', imageUrl: '', city: 'الأقصر'),
-    Mus1(id: 'm63', title: 'متحف التحنيط بالاقصر', imageUrl: '', city: 'الأقصر'),
-    Mus1(id: 'm64', title: 'المتحف المفتوح بالكرنك', imageUrl: '', city: 'الأقصر'),
-    //-----------------------------------------------
-    Mus1(id: 'm65', title: 'متحف أسوان', imageUrl: '', city: 'أسوان'),
-    Mus1(id: 'm66', title: 'متحف النوبة', imageUrl: '', city: 'أسوان'),
-    Mus1(id: 'm67', title: 'متحف التمساح', imageUrl: '', city: 'أسوان'),
-    Mus1(id: 'm68', title: 'متحف النيل', imageUrl: '', city: 'أسوان'),
-    //----------------------------------------------------------
-    Mus1(id: 'm69', title: 'متحف طنطا', imageUrl: '', city: 'طنطا'),
-    //--------------------------------------------
-    Mus1(id: 'm70', title: 'متحف أسيوط', imageUrl: '', city: 'أسيوط'),
-    Mus1(id: 'm71', title: 'متحف قصر الكسان باشا', imageUrl: '', city: 'أسيوط'),
-    //----------------------------------------
-    Mus1(id: 'm72', title: 'متحف السيرة الهلالية', imageUrl: '', city: 'قنا'),
-    //-----------------------------------------
-    Mus1(id: 'm73', title: 'متحف سوهاج القومي', imageUrl: '', city: 'سوهاج'),
-    //-----------------------------------------
-    Mus1(id: 'm74', title: 'متحف الغردقة', imageUrl: '', city: 'الغردقة'),
-    //-----------------------------------------
-    Mus1(id: 'm75', title: 'متحف النصر للفن الحديث', imageUrl: '', city: 'بورسعيد'),
-    Mus1(id: 'm76', title: 'متحف بورسعيد الحربي', imageUrl: '', city: 'بورسعيد'),
-    Mus1(id: 'm77', title: 'متحف بورسعيد القومي', imageUrl: '', city: 'بورسعيد'),
-    Mus1(id: 'm78', title: 'متحف هيئة قناة السويس', imageUrl: '', city: 'بورسعيد'),
-    //-----------------------------------------
-    Mus1(id: 'm79', title: 'متحف آثار الإسماعيلية', imageUrl: '', city: 'الإسماعيلية'),
-    Mus1(id: 'm80', title: 'متحف ديليسبيس', imageUrl: '', city: 'الإسماعيلية'),
-    //-----------------------------------------
-    Mus1(id: 'm81', title: 'متحف السويس القومي', imageUrl: '', city: 'السويس'),
-    //-----------------------------------------
-    Mus1(id: 'm82', title: 'متحف العلمين العسكري', imageUrl: '', city: 'مطروح'),
-    //-----------------------------------------
-    Mus1(id: 'm83', title: 'متحف الخارجة', imageUrl: '', city: 'الوادي الجديد'),
-    Mus1(id: 'm84', title: 'متحف الوادي الجديد', imageUrl: '', city: 'الوادي الجديد'),
-    //-----------------------------------------
-    Mus1(id: 'm85', title: 'متحف بني سويف', imageUrl: '', city: 'بني سويف'),
-  //-----------------------------------------
-    Mus1(id: 'm86', title: 'متحف المنيا', imageUrl: '', city: 'المنيا'),
-    Mus1(id: 'm87', title: 'متحف ملوي', imageUrl: '', city: 'المنيا'),
-    Mus1(id: 'm88', title: 'متحف إخناتون بالمنيا', imageUrl: '', city: 'المنيا'),
-  //-----------------------------------------
-    Mus1(id: 'm89', title: 'متحف دمياط', imageUrl: '', city: 'دمياط'),
-  //-----------------------------------------
-    Mus1(id: 'm90', title: 'متحف دار ابن لقمان', imageUrl: '', city: 'المنصورة'),
-    Mus1(id: 'm91', title: 'متحف المنصورة', imageUrl: '', city: 'المنصورة'),
-  //-----------------------------------------
-    Mus1(id: 'm92', title: 'المتحف العسكري - شمال سيناء', imageUrl: '', city: 'العريش'),
-  //-----------------------------------------
-    Mus1(id: 'm93', title: 'متحف طابا جنوب سيناء', imageUrl: '', city: 'طابا'),
-  //-----------------------------------------
-    Mus1(id: 'm94', title: 'متحف كفر الشيخ', imageUrl: '', city: 'كفر '),
-  //-----------------------------------------
-    Mus1(id: 'm95', title: 'متحف رشيد', imageUrl: '', city: 'البحيرة'),
-  //-----------------------------------------
-    Mus1(id: 'm96', title: 'متحف كوم أوشيم', imageUrl: '', city: 'الفيوم'),
-    Mus1(id: 'm97', title: 'متحف الكاريكاتيربالفيوم', imageUrl: '', city: 'الفيوم'),
-  //-----------------------------------------
-    Mus1(id: 'm98', title: 'متحف هرية رزنة (متحف أحمد عرابي)', imageUrl: '', city: 'الشرقية'),
-    Mus1(id: 'm99', title: 'متحف صان الحجر', imageUrl: '', city: 'الشرقية'),
-    Mus1(id: 'm100', title: 'متحف تل بسطة', imageUrl: '', city: 'الشرقية'),
-  //-----------------------------------------
-    Mus1(id: 'm101', title: 'متحف دنشواي', imageUrl: '', city: 'المنوفية'),
-  //-----------------------------------------
-    Mus1(id: 'm102', title: 'متحف جمال عبد الناصر', imageUrl: '', city: ''),
-    Mus1(id: 'm103', title: 'متحف الدكتور طه حسين', imageUrl: '', city: ''),
-    Mus1(id: 'm104', title: 'متحف الكرانيس', imageUrl: '', city: ''),
-    Mus1(id: 'm105', title: 'متحف الفنون الجميلة', imageUrl: '', city: ''),
-    Mus1(id: 'm106', title: 'متحف المحروسة', imageUrl: '', city: ''),
-    Mus1(id: 'm107', title: 'متحف أم كلثوم', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqbJQ1_YvHlyuBB3y84DnljxMjkfkpBYKNpw&usqp=CAU', city: ''),
+const MUSEUMS_CATEGORY =const[
+  Musems(id:'M1',
+   title: 'المتحف المصري',
+   imageUrl:'https://egymonuments.gov.eg/media/1221/97077059_3068911796487783_4196097307759869952_n.jpg?crop=0,0,0,0.01627906976744176&cropmode=percentage&width=645&height=423&rnd=132658218530000000',
+  titleEn: 'The Egyptian Museum',cityEn: 'Cairo',cityAr: 'القاهرة',
+  decrbtionAr: [
+    'لمتحف المصري هو أقدم متحف أثري في الشرق الأوسط، ويضم أكبر مجموعة من الآثار المصرية القديمة في العالم. يعرض المتحف مجموعة كبيرة تمتد من فترة ما قبل الأسرات إلى العصرين اليوناني والروماني.',
+    'تم اختيار المهندس المعماري للمبنى من خلال مسابقة دولية في عام 1895، والتي كانت الأولى من نوعها، وفاز بها المهندس المعماري الفرنسي مارسيل دورغنون. افتتح الخديوي عباس حلمي الثاني المتحف في عام 1902، وأصبح معلمًا تاريخيًا في وسط القاهرة، ومكانًا لأروع قطع الآثار المصرية القديمة.',
+    'من بين مجموعات المتحف التي لا مثيل لها المجموعة الجنائزية ليويا وتويا، وبسوسينيس الأول وكنوز تانيس، ولوحة نارمر التي تخلد توحيد مصر العليا والسفلى تحت ملك واحد، وهي من بين القطع الأثرية التي لا تقدر بثمن في المتحف. يضم المتحف أيضًا تماثيل رائعة للملوك العظماء، خوفو، خفرع، ومنكاورع بناة الأهرام في هضبة الجيزة. بالإضافة إلى مجموعة كبيرة من البرديات والتوابيت والحلي التى تكمل المجموعة المميزة لهذا المتحف.',
+  ],
+  decrbtionwEn: [
+    'The Egyptian Museum is the oldest archaeological museum in the Middle East, and houses the largest collection of Pharaonic antiquities in the world. The museum displays an extensive collection spanning from the Predynastic Period to the Greco-Roman Era.',
+    'The architect of the building was selected through an international competition in 1895, which was the first of its kind, and was won by the French architect, Marcel Dourgnon. The museum was inaugurated in 1902 by Khedive Abbas Helmy II, and has become a historic landmark in downtown Cairo, and home to some of the world’s most magnificent ancient masterpieces.',
+    'Among the museum’s unrivaled collection are the complete burials of Yuya and Thuya, Psusennes I and the treasures of Tanis, and the Narmer Palette commemorating the unification of Upper and Lower Egypt under one king, which is also among the museum’s invaluable artifacts. The museum also houses the splendid statues of the great kings Khufu, Khafre, and Menkaure, the builders of the pyramids at the Giza plateau. An extensive collection of papyri, sarcophagi and jewelry, among other objects, completes this uniquely expansive museum.',
+  ],
+
+   ),
+  Musems(id: 'M2',
+   title: 'متحف الفن الإسلامي',
+    imageUrl: 'https://egymonuments.gov.eg/media/1008/panorama001.jpg?crop=0.20892845252167036,0,0.23603608648542249,0.0000000000000009630681682485&cropmode=percentage&width=645&height=423&rnd=132658208110000000'
+    ,titleEn: 'Museum of Islamic Art',
+    cityAr: ' القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'يضم متحف الفن الاسلامي أكبر وأروع مجموعة من الآثار الإسلامية على مستوى العالم. بدأت فكرة تجميع وعرض التحف الإسلامية في عام 1880م ومنها تم تأسيس مبنى المتحف في عام 1902م، حيث تم تصميمه على نسق العمارة المملوكية .',
+      'يضم المتحف حالياً بعد تجديده أكبر مجموعة للقطع من مختلف أنحاء العالم الإسلامي والتي تسمح للزائر بالتجول عبر جميع فترات التاريخ الإسلامي، حيث تنوعت موضوعاتها من فلك وطب وعمارة وغيرها، كما تنوعت مواد صنعها من أعمال خشبية منحوتة بدقة، وقطع خزفية مزينة بإتقان ومخطوطات غاية في الندرة. ومن أهم كنوز المتحف مفتاح الكعبة من العصر المملوكي وقطعة نسيج تحمل أقدم كتابة كوفية.',
+      
+    ],
+    decrbtionwEn: [
+      'The Museum of Islamic Art contains one of the largest and most extensive collections of Islamic artifacts in the world. The search for a fitting premise to display the grand collection of artifacts began in 1880 A.D, and eventually led to the establishment of this building in 1902 A.D. The building was made in the Neo-Mamluk style.',
+      'Recently renovated, the museum exhibits a large selection of artifacts from all over the world covering subjects such as astronomy, medicine and engineering. The vast collection allows the visitor to journey through all periods of Islamic history by viewing some of the most magnificent artifacts, including finely carved woodwork, delicately decorated ceramics and rare manuscripts.',
+      'A Mamluk key to the Ka’ba in Mecca and a textile bearing the oldest Kufic inscription are among the museum’s notable possessions.',
+    ], ),
+  Musems(id: 'M3',
+   title: 'المتحف القبطى',
+    imageUrl: 'https://egymonuments.gov.eg/media/2546/g75a3721.jpg?crop=0.14901044934227492,0.10340085192607167,0.16346937426273669,0.037769957627032426&cropmode=percentage&width=645&height=423&rnd=132658210180000000'
+    ,titleEn: 'The Coptic Museum',
+    cityAr: 'القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'يضم المتحف القبطى أكبر مجموعة من الآثار القبطية فى العالم، تم افتتاحه فى سنة 1910. تم انشاء المتحف بمجهودات مرقص سميكة باشا الذى يعتبر أحد الشخصيات المسيحية البارزة وقد كان مهتماً بحفظ التراث القبطى، كان سميكة باشا قد قام بجمع الآثار القبطية والعديد من العناصر المعمارية من الكنائس القديمة التى تخضع للتجديدات، وقد استخدمها لبناء المتحف وتأسيس مجموعته.',
+      'تعكس مجموعة الآثار بالمتحف التاريخ القبطى من بداياته الأولى فى مصر خلال ازدهارها كمركز رائد للمسيحية فى العالم. ترجع أصول الميسحية "القبطية" فى مصر إلى زيارة القديس مرقص لمدينة الاسكندرية فى القرن الأول الميلادى.وتعكس الآثار المعروضة فى المتحف المزج بين الفن القبطى و الثقافات السائدة بما فى ذلك الفرعونية، واليونانية، والرومانية، والبيزنطية والعثمانية، وتطورها ليصبح لها شخصيتها وهويتها الخاصة.',
+      'تحتوى المجموعة الكبيرة الخاصة بالمتحف على المخطوطات المزخرفة بشكل رائع، والأيقونات، والأعمال الخشبية المنحوتة بدقة، والجداريات (الفريسكات) المتقنة المزخرفة  بالمناظر الدينية والباقية من الأديرة والكنائس القديم',
+    ],
+    decrbtionwEn: [
+      'The Coptic Museum houses the largest collection of Coptic artifacts in the world and was inaugurated in 1910. The museum was established through the efforts of Marcus Simaika Pasha, a prominent Coptic figure who was vested in the preservation of Coptic heritage. Simaika Pasha bought and collected Coptic antiquities and various architectural elements from older churches that were undergoing renovation, and used them to built the museum and establish its collection.',
+      'The collection represents Coptic history from its earliest beginnings in Egypt through to its rise as a leading center of Christianity in the world. Coptic Christianity traces its origins to a visit by Saint Mark in the city of Alexandria in the 1st Century A.D. The artifacts on display in the museum show the merge of Coptic art with the prevailing cultures including Pharaonic, Greek, Roman, Byzantine and Ottoman, and its evolution in developing its own character and identity.',
+      'Magnificently decorated manuscripts, icons, delicately carved woodwork and elaborate frescos with religious scenes recovered from ancient monasteries and churches are among its extensive collection.',
+    ], ),
+  Musems(id: 'M4',
+   title: 'المتحف القومى للحضارة',
+    imageUrl: 'https://egymonuments.gov.eg/media/6211/img_%D9%A2%D9%A0%D9%A1%D9%A7%D9%A0%D9%A2%D9%A2%D9%A2_%D9%A0%D9%A9%D9%A4%D9%A1%D9%A4%D9%A2_%D9%A8%D9%A2%D9%A4-copy.jpg?crop=0.017948664671984593,0.0000000000000013482954355479,0,0&cropmode=percentage&width=645&height=423&rnd=132658237660000000'
+    ,titleEn: '',
+    cityAr: ' القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'المتحف القومي للحضارة المصرية (NMEC) يقع بمنطقة الفسطاط العاصمة المصرية الأولى بعد الفتح العربي الإسلامي، فكان اختيار منطقي لموقع المتحف، حيث تقع المنطقة على مفترق طرق التاريخ المصري، فتضم العديد من الكنائس والأديرة القبطية، والمتحف القبطي، ومعبد بن عزرا، وأول مسجد في مصر، مسجد عمرو بن العاص، كما يمكن رؤية قلعة صلاح الدين من مساحات المتحف الخارجية المصممة للتأكيد على الموقع الفريد المطل على بحيرة عين الصيرة، آخر بحيرة طبيعية في القاهرة.',
+      ' تم افتتاح المتحف بشكل  جزئي في عام 2017,  وسيعرض المتحف مجموعة مكونة من 50.000 قطعة أثرية ، تعكس الحضارة المصرية منذ عصور ما قبل التاريخ وحتى يومنا هذا.',
+      'تنقسم مجموعة العرض الدائم إلى منطقتين منفصلتين ، إحداهما مرتبة زمنياً والأخرى موضوعياً. حيث تضم المنطقة الأولى "المرتبة زمنياً" :  الحضارة الفرعونية ، اليونانية لرومانية ، القبطية ، العصور الوسطى ، الحضارة الإسلامية ، والخضارة الحديثة والمعاصرة. أما  المنطقة الأخرى "المرتبة موضوعياً"   فتضم التالى : الحضارة، والنيل، والكتابة، والدولة والمجتمع، والثقافة، والمعتقدات والأفكار ، ومعرض المومياوات الملكية.',
+    ],
+    decrbtionwEn: [
+      'National Museum of Egyptian Civilization (NMEC) is located in Fustat, the first Egyptian capital after the Arab Islamic conquest, so it was a logical choice for the museum site, as the area is located at the crossroads of Egyptian history, and it includes many Coptic churches and monasteries, the Coptic Museum, the Ibn Ezra Temple, and the first mosque in Egypt, the Amr Ibn Al-Aas Mosque. The Citadel of Saladin can also be seen from the museum\'s outdoor spaces, designed to emphasize the unique location overlooking Lake Ain El-Sira, the last natural lake in Cairo.',
+      'The museum partially opened in 2017,and will display a collection of 50.000 artifacts, presenting Egyptian Civilization from prehistoric times to the present day .',
+      'The permanent collection is divided into two separate regions,one chronological the other thematic . the chronological area will be the following archaic:Archaic,pharaonic,Greco-roman,Coptic,medival, Islamic, modern and contemporary. The thematic areas will be the following:Down of civilization,the Nile,writing,state and society,material culture,Beliefs and thinking and the gallery of royal mummies.',
+    ], ),
+  Musems(id: 'M5',
+   title: 'متحف عواصم مصر',
+    imageUrl: 'https://egymonuments.gov.eg/media/6470/222.jpg?anchor=center&mode=crop&width=645&height=423&rnd=132553522030000000'
+    ,titleEn: 'Egypt’s Capitals Museum ( ECM )',
+    cityAr: 'القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'يقع متحف العواصم المصرية في مدينة الفنون والثقافة بالعاصمة الجديدة، والتي تضم مجموعة متنوعة من المباني الثقافية، وعدد من المسارح وكذا مجموعة متنوعة من مراكز الرسم والموسيقى ودار أوبرا ومكتبة ضخمة.',
+      'وقد نشأت فكرة إقامة متحف لعرض تاريخ وفنون عواصم مصر على مر العصور ختامًا بالعاصمة الإدارية الجديدة في مدينة الفنون والثقافة تزامنا مع إنشاء العاصمة الإدارية الجديدة.',
+      'يهدف المتحف إلى تسليط الضوء على أهم العواصم المصرية بدءا من منف أول عاصمة في العصر الفرعوني وحتى العاصمة الإدارية الجديدة وذلك من خلال عرض مجموعات أثرية مختلفة تعود لعصور تاريخية متباينة للتأكيد على دور التراث في الحفاظ على ريادة مصر في مجال الحكم والإدارة. يعتمد سيناريو العرض على إظهار الهيكل الإداري للدولة المصرية مع تسليط الضوء على التطور العمراني لها والتأكيد على العمارة الدينية والدنيوية والخدمية والحياة الاجتماعية والاقتصادية لكل عاصمة على حدى، كما تناول فكرة الشعائر الجنائزية ورحلة البعث عند المصريين القدماء وذلك في قاعة منفصلة ملحقة بمبنى المتحف الرئيس.',
+     'ترتكز فلسفة المتحف على "حفظ تراث مصر الحضاري والإداري من خلال إحياء فكرة تغير العواصم بمصر والتأكيد على ريادة الدولة المصرية في نظم الحكم والإدارة عبر العصور التاريخية في متحف متفرد من نوعه"',
+     'قاعات العرض: يتكون المتحف من قاعتين:',
+     'أولأ: قاعة عواصم مصر: تم إختيار مجموعة من العواصم المصرية ذائعة الصيت والأهمية على مدارالتاريخ المصري دون غيرها وذلك لما تحمله هذه العواصم من أهمية تاريخية ودينية وإدارية، تبلور فكرة العرض العواصم التالية هى منف، تل العمارنة، طيبة، الأسكندرية، القاهرة الأسلامية والخديوية، والعاصمة الإدارية الجديدة، ويتناول السيناريو أبرز معالم العاصمة من حيث اشهر المدن، الحكام، رجال الدولة، الطرق والتقسيمات الإدارية، الخ.',
+     'ثانيًا: الشعائر الجنائزية ورحلة البعث: كما يتناول سيناريو العرض رحلة الموت والعالم الآخر من خلال عرض للشعائر الجنائزية، وأدوات الدفن، وطقوس الحياة الأخرى، فضلاً عن عرض مقبرة كاملة مكتشفة حديثًا للمدعو توتو وزوجته تا شيرت عازفة الصلاصل بمنطقة أخميم بسوهاج.',
+     
+    ],
+    decrbtionwEn: [
+      'The museum is located at the City of Arts and Culture in the New Administrative Capital of Egypt. The museum showcasing the story of the Egyptian Capitals and its development through the history of Egypt from the oldest city capital "Memphis" to the newest capital.  The museum is one of its kind in Egypt, as it is focused mainly on the Egyptian Capitals.',
+      'Six main capitals were selected to be the highlight of display: Memphis, Thebes, Tell el Amarna, Alexandria, Islamic Cairo, and Khedival Cairo. These capitals played a significant role in Egyptian history.',
+      'The museum has two main galleries; one is dedicated to the Egyptian Capitals, and the other is illustrated the ancient Egyptian beliefs and afterlife.',
+       'Museum vision',
+      'Conservation of the Egyptian cultural and administrative heritage through reviving the concept of Egypt’s changing capitals across the millennia, while emphasizing Egypt’s leading role in establishing prominent administrative systems in a unique, one-of-its-kind museum.',
+      
+    ], ),
+  Musems(id: 'M6',
+   title: 'متحف مطار القاهرة الدولي - صالة 2',
+    imageUrl: 'https://egymonuments.gov.eg/media/7093/img-20210507-wa0047.jpg?crop=0.02287234042553191,0,0.11941489361702141,0&cropmode=percentage&width=645&height=423&rnd=132657608830000000'
+    ,titleEn: 'Cairo International Airport Museum - Terminal 2',
+    cityAr: ' القاهرة',cityEn: ' Cairo',
+    decrbtionAr:[
+      'بدأت فكرة إقامة مُتْحَف في صالة 2 بمطار القاهرة الدولي في عام 2020م. وذلك حتى يكون بمثابة نقطة إنطلاق لتعريف السادة الزائرين بتاريخ مِصر العريق. وقد اُقيم المُتْحَف بالتعاون بين كلٍ من وزارة السياحة والآثار ووزارة الطيران المدني على مساحة تبلُغ حوالي 100 م2.',
+      'يُعبِّر العرض المُتْحَفي عن لمسات مضيئة في تاريخ مِصر على مر عصورها؛ حيث يعرض المُتْحَف قطع أثرية فريدة تُبرِز المميزات الفنية والتاريخية لكل حقبة بدايةً من العصور المِصرية القديمة بالإضافة إلى إبراز سمات الفنون الرومانية والقبطية والإسلامية وفنون العصر الحديث، هذا فضلًا عن قطع تُبرز كينونة مِصر كمهد لكافة الأديان السماوية والطوائف الدينية التي اجتمعت تحت ظلالها في سلامٍ وتناغم.',
+      
+    ],
+    decrbtionwEn: [
+      'The idea of ​​establishing a museum in Terminal 2 of Cairo International Airport began in 2020. This is in order to serve as a starting point for introducing the visiting gentlemen to the ancient history of Egypt. The museum was established in cooperation between the Ministry of Tourism and Antiquities and the Ministry of Civil Aviation over an area of ​​about 100 square meters.',
+      'The museum display expresses the luminous touches in the history of Egypt throughout its ages; The museum displays unique artifacts that highlight the artistic and historical features of each era, starting from the ancient Egyptian times, in addition to the features of Roman, Coptic, Islamic and modern arts, as well as pieces that highlight the Egyptian being as the cradle of all the heavenly religions and religious sects that gathered under their shades in peace and harmony.',
+      
+    ], ),
+  Musems(id: 'M7',
+   title: 'مُتْحَف مطار القاهرة الدوليّ - صالة ٣',
+    imageUrl: 'https://egymonuments.gov.eg/media/6391/whatsapp-image-2021-05-08-at-153053.jpeg?anchor=center&mode=crop&width=645&height=423&rnd=132657686970000000'
+    ,titleEn: 'Cairo International Airport Museum - Terminal 3',
+    cityAr: ' القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'تم افتتاح مُتْحَف مطار القاهرة الدوليّ )بصالة 3( في عام 2016م، وذلك في ضَوْءِ بروتوكول التعاون بين كلٍ من وزارة الآثار ووزارة الطيران المدنيّ، ليكون بمثابة البوابة الأولى المؤدية إلى تاريخ مِصر العريق،  بل والنافذة  المطلة على آثارها الشاخصة وحضارتها الشامخة.',
+      ' وقد كان المُتْحَف آنذاك يشغل مساحة 60م2 تقريبًا، وكان يضُم عدد (38) قطعة أثرية. إلى أن جاء عام 2020م وتم نقل المُتْحَف من مكانه القديم إلى الطابق الرابع في نفس المبنى وذلك بهدف توسعته وعرض المزيد من القطع الأثرية، حيث أصبحت مساحته تشغل حوالي 150م2 تقريبًا.',
+      'يعرض المُتْحَف حاليًا مجموعة من أبرز القِطَع الأثرية التي يستطيع من خلالها الزائر أن يحيا في عبق تاريخ مِصر الخالد في مختلف عصوره المتتابعة. تلك القِطَع التي تُمَـثِّل مرآة لحضارات وفنون مِصر المختلفة بدايةً من العصر الفرعونيّ مرورًا بالعصرين اليونانيّ الرومانيّ فضلًا عن الفن القبطيّ نهايةً بالعصر الإسلاميّ والحديث.',
+    ],
+    decrbtionwEn: [
+      'The Cairo International Airport Museum (Terminal 3) was inaugurated in 2016 AD, in light of the cooperation protocol between the Ministry of Antiquities and the Ministry of Civil Aviation, to serve as the first gateway to the ancient history of Egypt, and even the window overlooking its iconic monuments and its majestic civilization.',
+      'The museum at that time occupied an area of ​​approximately 60 square meters, and it contained 38 artifacts. Until the year 2020 AD, the museum was moved from its old place to the fourth floor in the same building, with the aim of expanding it and displaying more artifacts, as its area now occupies about 150 square meters.',
+      'The museum currently displays a group of the most prominent artifacts through which the visitor can live in the fragrance of Egypt\'s eternal history in its various successive eras. Those pieces that represent a mirror of the various civilizations and arts of Egypt, starting from the Pharaonic era through the Greco-Roman periods, as well as Coptic art, ending with the Islamic and modern era.',
+    ], ),
+  Musems(id: 'M8',
+   title: 'متحف شرم الشيخ',
+    imageUrl: 'https://egymonuments.gov.eg/media/6246/e68724bf-2cfd-463f-931b-1b8f49d822ad.jpg?anchor=center&mode=crop&width=645&height=423&rnd=132658227260000000'
+    ,titleEn: 'Sharm al-Sheikh Museum',
+    cityAr: 'جنوب سيناء',cityEn: ' South Sinai',
+    decrbtionAr:[
+      'تعود فكره بناء المتحف الى عام 2006 وفى عام 2017 تم استكمال بناء المتحف.',
+      'ويعكس سيناريو العرض المتحفي الأوجه المختلفه للحضارة بوجه عام والحضارة المصرية القديمه بشكل خاص وذلك عن طريق عرض مجموعة منتقاة من القطع الاثرية التي تم إختيارها بعناية من المخازن المتحفية.',
+      'تعبر القاعة الكبرى في العرض المتحفي عن الإنسان والحياة البرية في مصر القديمه واهتماماته بالعلم والرياضة والصناعات والحرف وحياته العائلية وحبه للحيوانات لدرجه التبجيل، كما يعرض بعض الحيوانات المحنطة.',
+      'ومن أهم القطع التي تضمها قاعة الحضارات هي التابوت الداخلي والخارجي لإيست ام حب زوجة بانجم الثاني الكاهن الأكبر لآمون وحاملة لقب : "كاهنة المعبودة إيزيس و المعبودين مين وحورس بأخميم " " وأيضا صناديق الأواني الكانوبية الخاص بها  وبردية إيست إم حب، ومجموعه من أواني العطور وأدوات التجميل، وأيضا رأس للملكة حتشبسوت ومجموعة من  تماثيل التناجرا لسيدات بملابس وطرز مختلفة، بالإضافة لمعروضات من التراث السيناوى.',
+    ],
+    decrbtionwEn: [
+      'The idea for the museum, was first suggested in 2006, and in 2017 construction was complete.',
+      'The museum’s display scenario broadly reflects the different aspects of human civilization and culture in general, while shedding light specifically on ancient Egyptian civilization. This is done through a selection of historical objects that were carefully chosen from museum storage rooms.',
+      'The museum’s Grand Hall presents a history of humans and wildlife in ancient Egypt, and highlights ancient Egyptian civilization’s preoccupation with science, mathematics, industry, crafts, family life, and love for animals to the point of reverence. To showcase this point, animal the Grand Hall is where animal mummies are displayed',
+      'In the Hall of Civilization are displayed the beautiful inner and outer coffins of Isetemheb, the wife of the high-priest of AmunPanedjem II, who was herself a priestess of Isis, Min, and Horus in Akhmim. Notable also are Isetemheb’scanopicjars,papyrus collection, cosmetics,and perfume vessels, the head of a statue of Hatshepsut, and tanagrafigurines depicting women wearing a variety of dresses, in addition to objects that display Sinai’s cultural heritage.',
+    ], ),
+  Musems(id: 'M9',
+   title: 'متحف المركبات الملكية',
+    imageUrl: 'https://egymonuments.gov.eg/media/1846/20200711-royal-carriages-museum-pre-opening.jpg?crop=0.0000000000000011368683772162,0.030240806933931445,0,0.028784756858192862&cropmode=percentage&width=645&height=423&rnd=132658233860000000'
+   ,titleEn: 'The Royal Carriages Museum',
+    cityAr: 'القاهرة',cityEn: ' Cairo',
+    decrbtionAr:[
+      'يُعد متحف المركبات الملكية ببولاق واحداً من أعرق المتاحف النوعية على مستوى العالم؛ حيث هيئ خصيصا لعرض وحفظ التراث الثقافي الخاص بالمركبات الملكية التي ترجع لعصر أسرة محمد علي وكل ما يتعلق بها، كما يسلط الضوء على الاهتمام بتربية الخيول في هذه الآونة.',
+      'ترجع فكرة إنشاء مبنى المُتحف إلى عهد الخديوي إسماعيل الذي حكم مصر فيما بين عامي (1863-1879م)، فهو أول من فكر في إنشاء مبنى خاص بالمركبات الخديوية والخيول، سمي في بداية الأمر باسم مصلحة الركائب الخديوية"، واستمر هذا الاسم حتى عام 1922م في عهد الملك فؤاد الأول (1917-1936م)، وأصبح باسم " إدارة الاسطبلات الملكية". وكانت هذه المصلحة محط اهتمام القصر الملكي آنذاك؛ حيث وفر لها الخبراء المتخصصين، فضلاً عن العمال المهرة، وقد تم تحويل المبنى إلى مُتحف تاريخي بعد إنتهاء ثورة 1952م.',
+      'يضم المتحف مجموعة رائعة من العربات الملكية مختلفة الأحجام والأنواع، والتي ترجع إلى فترة حكم أسرة محمد علي باشا في مصر، أشهرها العربة المعروفة باسم عربة الآلاي الكبرى الخصوصي، والتي تمتاز بدقة صناعتها وفخامة زخرفتها. وهي مهداه من الإمبراطور نابليون الثالث وزوجته الإمبراطورة أوجيني للخديوي إسماعيل وقت افتتاح قناة السويس عام 1869م، وأمر الملك فاروق الأول بتجديدها واستخدامها عند افتتاح البرلمان في عام 1924م.',
+      'كما يضم مجموعة من أطقم الخيول ولوازمها، بالإضافة إلى الملابس الخاصة بالعاملين بمصلحة الركائب والذين ترتبط وظائفهم بالعربات. فضلاً عن مجموعة من اللوحات الزيتية للملوك والأميرات التي يرجع تأريخها إلى نفس الحقبة التاريخية. جدير بالذكر أن هناك عدد قليل من المتاحف المتخصصة في عرض هذا النوع من المركبات الملكية في بعض الدول الأوربية مثل النمسا وفرنسا وروسيا وإنجلترا.',
+    ],
+    decrbtionwEn: [
+      'The Royal carriages Museum in Boulaq is one of the earliest of its kind worldwide, both from the prospect of the authenticity of its building and the originality of its displays. The building was particularly adapted to preserve the cultural heritage of the royal carriages and all related material dating back to the era of Mohammed Ali Dynasty.',
+      'The idea of establishing the museum building dates back to the reign of khedive Ismail (r. 1863- 1879), who thought of founding a special structure for housing the horses and the khedivial carriages. Initially, the establishment was called the “Khedivial Carriages Service”, then its name was changed in 1922 to “Royal Stables Department (Royal Mews)” under the reign of king Fouad  (r. 1917- 1936).',
+      'Being the focus of royal attention, this establishment was provided with all specialized experts and skilled workers. The building was converted into a museum after the revolution of 1952.',
+      'The Museum houses a unique collection, of which the most notable are various sizes and types of royal carriages, one of the most distinguished objects in the Museum is the grand Alay Carriage, which is characterized by its finest workmanship and elaborate decoration. It was the gift of Emperor Napoleon III and his wife Empress Eugenie to Khedive Ismail on the occasion of the Suez Canal inauguration in 1869. King Faruk ordered its restoration and used it on the inauguration of the Parliament in 1942, also its contain horse riding equipments, uniforms of the Carriages Service employees, as well as oil paintings dating to the same era.',
+      'Worthy of note is that few museums all over the world are specialized in exhibiting this kind of displays, for examples museums in Austria, France, Russia, and England.',
+    ],  ),
+  Musems(id: 'M10',
+   title: 'متحف كفر الشيخ',
+    imageUrl: 'https://egymonuments.gov.eg/media/6321/111.jpg?center=0.13157894736842105,0.46666666666666667&mode=crop&width=645&height=423&rnd=132658218300000000'
+    ,titleEn: 'Kafr El-Sheikh Museum',
+    cityAr: 'كفر الشيخ',cityEn: 'Kafr El-Sheikh',
+    decrbtionAr:[
+     
+      '    كان لمحافظة كفر الشيخ منذ أقدم العصور التاريخية نصيب كبير من المساهمة فى تاريخ الحضارة المصرية وذلك لوجود مدينة (بوتو) والتى تعرف حالياً بتل الفراعين، حيث كانت أول عاصمة لأول دولة منظمة في مصر السفلى يهدف المتحف لعرض التاريخ الإقليمي والعديد من القطع الآثرية التي تم الكشف عنها بمحافظة كفر الشيخ ، يشتمل المُتْحَف على عدد ثلاث قاعات، تضم المقتنيات الآثرية التى تم العثور عليها بجبانة (بوتو العظيمة) ومنطقة المعابد والتى تم الكشف بها عن عدد من القطع الآثرية الهامة التى تجسد قصة الصراع بين حورس وعمه ست، بالإضافة للمواقع الآثرية الأخرى بكفر الشيخ ومنها تمثال للمعبود حورس الصقر من أروع التماثيل التي اكتشفت بمصر حتى الآن ويعتبر نسخة فريدة لا يضاهيها إلا مثيله بمعبد إدفو، كما خصصت قاعة بالمتحف لعرض المقتنيات التي تجسد فترة استضافة مدينة سخا رحلة العائلة المقدسة أثناء زيارتها لمصر، بالإضافة إلى عرض تاريخ العلوم خلال العصور التاريخية المختلفة كالطب والبيطرة والصيدلة، وكذلك بعض الموضوعات ذات الصلة بمدينة فوه ذات التراث الإسلامي الثري، حيث يضم كافة التراث الثقافي لكفر الشيخ باعتبارها ثالث مدينة تراثية بعد القاهرة ورشيد.',
+    ],
+    decrbtionwEn: [
+     
+      'Kafr El-Sheikh Governorate, since the earliest historical times, had a large share of the contribution to the history of Egyptian civilization due to the presence of the city (Bhutto), which is now known as Tell Al-Faraeen, as it was the first capital of the first organized state in Lower Egypt. The museum aims to display the regional history and many artifacts that have been uncovered about it in Kafr El Sheikh Governorate, The museum includes three halls, which include the archaeological holdings that were found in the Great Bhutto Cemetery and the temple area, in which a number of important artifacts were uncovered that embody the story of the conflict between Horus and his uncle Six, in addition to other archaeological sites in Kafr El-Sheikh, including a statue of the deity Horus the Falcon is one of the most amazing statues that have been discovered in Egypt so far, and it is considered a unique copy that can only be matched by the one in the Edfu temple. A hall in the museum was also devoted to displaying the holdings that embody the period of the city of Sakha hosting the journey of the Holy Family during its visit to Egypt, in addition to displaying the history of science during different historical eras such as medicine, veterinary and pharmacy, as well as some topics related to the city of Fuwah, which has a rich Islamic heritage, as it includes all the cultural heritage of Kafr Sheikh as the third heritage city after Cairo and Rasheed.',
+    ], ),
+  Musems(id: 'M11',
+   title: 'متحف جاير أندرسون',
+    imageUrl: 'https://egymonuments.gov.eg/media/1163/%D8%A7%D9%84%D9%85%D8%A8%D9%86%D9%89-%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC.jpg?crop=0,0.0062819002748331371,0,0.066772582427114341&cropmode=percentage&width=645&height=423&rnd=132658212830000000'
+    ,titleEn: 'Gayer Anderson Museum',
+    cityAr: 'القاهرة',cityEn: '',
+    decrbtionAr:[
+      '"جاير أندرسون" باشا هو ضابط إنجليزي أتم دراسته للطب بلندن وعين بالقسم الطبي بالجيش الإنجليزي سنة 1904م، ثم انتقل إلى خدمة الجيش الإنجليزى بمصر سنة 1907م. في عام 1935م تقدم "جاير أندرسون" إلى لجنة حفظ الآثار العربية بأن يسكن في البيتين وأن يقوم بتاثيثهما على الطراز الإسلامي العربي، ويعرض فيهما مجموعته الأثرية من مقتنيات أثرية فرعونية وإسلامية وآسيوية، على أن يصبح هذا الأثاث ومجموعته من الآثار ملكاً للشعب المصري بعد وفاتة أو حين يغادر مصر نهائياً، فوافقت اللجنة. وما أن غادر أندرسون المنزل عام 1942م، حتى نفذت الوصية وآل البيتين وما فيهما إلى مصلحة الآثار العربية التي جعلت منها متحفاً باسم جاير أندرسون.',
+      ' يتكون البيت من منزلين يرجعان للعصر العثماني في القرنين السادس عشر والسابع عشر الميلادي وقد تم دمجهم في منزل واحد؛ المنزل الأول أنشأه المعلم عبد القادر الحداد سنة (947هـ/ 1545م)، والذي فى تاريخ لاحق انتلقت ملكيته إلى السيدة/ آمنه بنت سالم، والمنزل الثاني أنشأه الحاج/ محمد بن سالم بن جلمام الجزار سنة (1041هـ/ 1631م)، وتعاقبت الأسر على سكنه حتى سكنته سيدة من جزيرة كريت فعرف المنزل ببيت الكريتلية نسبة إليها.',
+      
+    ],
+    decrbtionwEn: [
+      'Geyer Anderson Pasha was an English officer who studied medicine in London. He was assigned as a doctor for the English military in 1904, and was deployed in Egypt in 1907.',
+      'In 1935, Geyer Anderson submitted a request to the Assembly of Preserving Arab Antiquities to live in the two houses and to furnish them in Islamic-Arabic style. He proposed to gather a collection of pharaonic, Islamic, and Asiatic antiquities. These antiquities would belong to the Egyptian people following his death or when he left Egypt permanently. The assembly agreed. When Anderson left the house in 1942, his request was granted, and the two houses came into the possession of the Assembly of Preserving Arab Antiquities, which converted the building into the Geyer Anderson Museum.',
+      'The house is in fact a combination of two houses that date to the Ottoman period (16-17th century).',
+      'The first house was built by the scholar ‘Abd al-Qadir al-Hadad in 947 AH/ 1545 AD. It was later owned by lady Amina bint Salem. The second house belonged to Hajj Muhammad ibn Salem ibn Jilmam al-Jazar in 1041 AH/ 1631 AD. Different families lived in it until it came under the ownership of a lady from Crete, and so the house became known as as Bayt al-Kritlyya.',
+      
+    ], ),
+  Musems(id: 'M12',
+   title: 'متحف قصر الأمير محمدعلى بالمنيل',
+    imageUrl: 'https://egymonuments.gov.eg/media/5796/whatsapp-image-2020-07-02-at-95538-pm.jpeg?crop=0,0.17160342717258253,0,0&cropmode=percentage&width=645&height=423&rnd=132658203340000000'
+    ,titleEn: 'Manial Palace Museum',
+    cityAr: 'القاهرة',cityEn: 'Cairo',
+    decrbtionAr:[
+      'يعد متحف قصر الأمير محمد علي بالمنيل من أجمل وأهم المتاحف التاريخية في مصر. يعبر المتحف عن فترة مهمة من تاريخ مصر الحديث وينفرد بتصميمه المعماري الرائع الذى يجمع بين الطراز الإسلامي والمدارس الفنية المختلفة التي مرت على أرض مصر مثل المدرسة المملوكية، كما يتضمن أيضاً بعض الزخارف الشامية والمغربية والأندلسية، بل وشاعت فيه الروح الفارسية وكذلك العثمانية. لذا فهو يعد مدرسة فنية جامعة لعناصر الفنون الإسلامية المختلفة. يتكون قصر الأمير محمد علي باشا من عدة سرايات يحيطها سور خارجي، بداية هذه السرايات سراي الاستقبال، وبرج الساعة، ثم السبيل، والمسجد، ومتحف الصيد الذي أضيف حديثًا عام 1963م، وكانت أول سرايا بالقصر هي سراي الإقامة التي أنشأها 1903م، ثم سراي العرش، والمتحف الخاص، والقاعة الذهبية، هذا إلى جانب الحديقة الرائعة المحيطة بالقصر والفريدة من نوعها.',
+      
+    ],
+    decrbtionwEn: [
+      'The Prince Muhammad Ali Manial Palace Museum is one of the most beautiful and important historical museums in Egypt. The museum expresses an important period in the history of modern Egypt and is unique to its magnificent architectural design which combines the Islamic style with the various artistic schools that passed through the land of Egypt such as the Mamluk school. It also includes some levant, Moroccan and Andalusian motifs, and the Persian spirit as well as the Ottoman were popular in it. So it is considered a comprehensive art school for various elements of Islamic arts.',
+      'Prince Muhammad Ali Pasha Palace consists of several palaces surrounded by an outer wall beginning with the reception hall, clock tower, the Sabil, the mosque, the hunting museum which was recently added in 1963, residence palace was the first palace in the established in 1903, the throne palace, the private museum, and the golden hall, in addition to the wonderful garden surrounding the palace and the unique of Its type.',
+      
+    ], ),
+  Musems(id: 'M13',
+   title: 'متحف المجوهرات الملكية',
+    imageUrl: 'https://egymonuments.gov.eg/media/1230/01-1.jpg?anchor=center&mode=crop&width=645&height=423&rnd=132658205550000000'
+    ,titleEn: '',
+    cityAr: '',cityEn: '',
+    decrbtionAr:[
+      '',
+      '',
+      '',
+    ],
+    decrbtionwEn: [
+      '',
+      '',
+      '',
+    ], ),
+  Musems(id: 'M14',
+   title: 'متحف التحنيط',
+    imageUrl: 'https://egymonuments.gov.eg/media/1475/mummi_edit2.jpg?center=0.69230769230769229,0.48780487804878048&mode=crop&width=645&height=423&rnd=132658234380000000'
+    ,titleEn: '',
+    cityAr: '',cityEn: '',
+    decrbtionAr:[
+      '',
+      '',
+      '',
+    ],
+    decrbtionwEn: [
+      '',
+      '',
+      '',
+    ], ),
+  Musems(id: 'M15',
+   title: 'متحف الغردقة',
+    imageUrl: 'https://egymonuments.gov.eg/media/5771/88082345_2886473774731587_6616798875023835136_o.jpg?crop=0.044831375591016548,0,0.1145803320774232,0&cropmode=percentage&width=645&height=423&rnd=132658231380000000'
+    ,titleEn: '',
+    cityAr: '',cityEn: '',
+    decrbtionAr:[
+      '',
+      '',
+      '',
+    ],
+    decrbtionwEn: [
+      '',
+      '',
+      '',
+    ], ),
+ 
+
 ];
 
 
