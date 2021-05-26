@@ -1,16 +1,26 @@
 import 'package:flutter/material.dart';
 
-class Mus1 {
+class Musems {
   final String id;
   final String title;
+  final String titleEn;
   final String imageUrl;
-  final String city;
+  final String cityAr;
+  final String cityEn;
+
+  final List<String> decrbtionAr;
+  final List<String> decrbtionwEn;
 
 
-  const Mus1({
+
+  const Musems({
     @required this.id,
     @required this.title,
     @required this.imageUrl,
-     this.city,
+    @required this.titleEn,
+    @required this.decrbtionAr,
+    @required this.decrbtionwEn,
+     this.cityAr,
+     this.cityEn,
   });
 }
